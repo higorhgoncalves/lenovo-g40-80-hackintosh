@@ -8,7 +8,7 @@
 * Audio - CONEXANT 20751/2;
 * Touchpad and Keyboard;
 * USB Devices;
-* Wifi Dongle - TL WN725N - Download Driver and Install(Catalina and Older) https://static.tp-link.com/2019/201911/20191122/TP-Link_Installer_Mac%2010.15_Beta.zip ;
+* Wifi Dongle - TL WN725N - Download Driver and Install(Catalina and Older);
 
 **What doesn't work yet:**
 * Wifi and Bluetooth Card - RTL8723BE - Not Supported, need replacement
