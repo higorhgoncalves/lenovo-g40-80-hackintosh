@@ -30,8 +30,10 @@ https://github.com/headkaze/Hackintool/releases
 https://github.com/acidanthera/MaciASL/releases
 * PlistEditor
 https://www.fatcatsoftware.com/plisteditpro/
-* TL WN725N Driver (Wifi Dongle)
+* TL WN725N Driver (Wifi Dongle) (Catalina and Older)
 https://www.tp-link.com/br/support/download/tl-wn725n/#Driver
+* TL WN725N Guide (Wifi Dongle) (Big Sur)
+https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter
 
 **References:**
 * https://dortania.github.io
