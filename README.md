@@ -35,7 +35,10 @@ https://www.fatcatsoftware.com/plisteditpro/
 https://www.tp-link.com/br/support/download/tl-wn725n/#Driver
 * TL WN725N Guide (Wifi Dongle) (Big Sur)
 https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter
+* EFI GUI (Put Resources Folder in EFI partition /EFI/OC/)
+https://github.com/acidanthera/OcBinaryData
 
 **References:**
 * https://dortania.github.io
+* https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
 * https://opencore.slowgeek.com
