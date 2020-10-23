@@ -9,6 +9,7 @@
 * Touchpad and Keyboard;
 * USB Devices;
 * Wifi Dongle - TL WN725N - Download Driver and Install(Catalina and Older);
+* Battery Status;
 
 **What doesn't work yet:**
 * Wifi and Bluetooth Card - RTL8723BE - Not Supported, need replacement
