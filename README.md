@@ -15,7 +15,7 @@
 * SD-CardReader - Not Supported
 
 **Fixes:**
-* To configure keys shortcut for Brightness, first disable SSDT-BATT through Opencore Configurator, or a Plist Editor. After configuration you can enable SSDT-BATT again. Recomended Keys: F1 and F2;
+* To configure shortcut keys for Brightness, first disable SSDT-BATT.aml through Opencore Configurator, or a Plist Editor. After configuration you can enable SSDT-BATT again. Recomended Keys: F1 and F2;
 
 * To configure Trackpad on System Preferences, please download the Trackpad Pane Fix, open Hackintool under Utilities click on the House icon (Disable Gatekeeper), copy Trackpad.prefPane to /System/Library/PreferencePanes/ and Replace the one found in there.
 
