@@ -1,47 +1,52 @@
 # Lenovo G40-80 Hackintosh
 ### Lenovo G40-80 Hackintosh with Opencore (0.6.2)
 
-**Working:**
+**Specs**
 * CPU - Intel 5200U Broadwell;
-* Video - Intel HD 5500;
+* Video Card - Intel HD Graphics 5500;
+* Audio Card - CONEXANT 20751/2;
+* RAM - 8 GB;
+* HDD - 1 TB;
+* Wireless Card - RTL8723BE - Not Supported, need replacement;
+* Wifi Dongle - TL WN725N;
+* Bluetooth Dongle - Generic Bluetooth 4.0 Dongle;
+
+**Working (Tested):**
+* Graphics Acceleration;
 * HDMI Video;
 * Brightness control;
-* Audio - CONEXANT 20751/2;
+* Internal Audio;
+* Internal Mic;
 * Touchpad and Keyboard;
 * USB Devices;
-* Wifi Dongle - TL WN725N - Download Driver and Install(Catalina and Older);
+* Wifi Dongle;
+* Bluetooth Dongle;
 * Battery Status;
-
+* DVD Reader;
 
 **What doesn't work yet:**
-* Wifi and Bluetooth Card - RTL8723BE - Not Supported, need replacement;
-* SD-CardReader - Not Supported;
+* Wifi;
+* Bluetooth;
 * HDMI Audio;
+* SD-CardReader;
 
 **Fixes:**
-* To configure shortcut keys for Brightness, first disable SSDT-BATT.aml through Opencore Configurator, or a Plist Editor. After configuration you can enable SSDT-BATT again. Recomended Keys: Ctrl + F11 and Ctrl + F12;
+* To configure shortcut keys for Brightness, first disable SSDT-BATT.aml through Opencore Configurator, or a Plist Editor. After configuration you can enable SSDT-BATT.aml again. Recomended Keys: Ctrl + F11 and Ctrl + F12;
 
+*For Catalina and Older:*
 * To configure Trackpad on System Preferences, please download the Trackpad Pane Fix, open Hackintool, under Utilities, click on the House icon (Disable Gatekeeper), copy Trackpad.prefPane to /System/Library/PreferencePanes/ and Replace the one found in there.
 
 **Downloads:**
-* Opencore Configurator
-https://mackie100projects.altervista.org/apps/opencoreconf/download-new-build.php?version=last
-* Trackpad Pane Fix (Kext for touchpad already on EFI and added to config.plist)
-https://drive.google.com/file/d/1nqvFKDfDNCfYNkZnA8fWYGY5nq4Xk9dw/view?usp=sharing
-* Hackintool
-https://github.com/headkaze/Hackintool/releases
-* MaciASL
-https://github.com/acidanthera/MaciASL/releases
-* Clover.app (Plist Editor/EFI Mounter)
-https://github.com/CloverHackyColor/CloverBootloader/releases
-* TL WN725N Driver (Wifi Dongle) (Catalina and Older)
-https://www.tp-link.com/br/support/download/tl-wn725n/#Driver
-* TL WN725N Guide (Wifi Dongle) (Big Sur)
-https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter
-* EFI GUI (Put Resources Folder in EFI partition /EFI/OC/)
-https://github.com/acidanthera/OcBinaryData
+* [Opencore Configurator](https://mackie100projects.altervista.org/apps/opencoreconf/download-new-build.php?version=last)
+* [Trackpad Pane Fix](https://drive.google.com/file/d/1nqvFKDfDNCfYNkZnA8fWYGY5nq4Xk9dw/view?usp=sharing) (Kext for touchpad already on EFI and added to config.plist)
+* [Hackintool](https://github.com/headkaze/Hackintool/releases)
+* [MaciASL](https://github.com/acidanthera/MaciASL/releases)
+* [Clover.app](https://github.com/CloverHackyColor/CloverBootloader/releases) (Plist Editor/EFI Mounter)
+* [TL WN725N Driver](https://www.tp-link.com/br/support/download/tl-wn725n/#Driver) (Wifi Dongle) (Catalina and Older)
+* [TL WN725N Guide](https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter) (Wifi Dongle) (Big Sur)
+* [EFI GUI](https://github.com/acidanthera/OcBinaryData) (Put Resources Folder in EFI partition /EFI/OC/)
+
 
 **References:**
 * https://dortania.github.io
-* https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
 * https://opencore.slowgeek.com
