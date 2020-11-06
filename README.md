@@ -38,7 +38,7 @@
 
 **Downloads:**
 * [Opencore Configurator](https://mackie100projects.altervista.org/apps/opencoreconf/download-new-build.php?version=last)
-* [Trackpad Pane Fix](https://drive.google.com/file/d/1nqvFKDfDNCfYNkZnA8fWYGY5nq4Xk9dw/view?usp=sharing) (Kext for touchpad already on EFI and added to config.plist)
+* [Trackpad Pane Fix](https://drive.google.com/file/d/1nqvFKDfDNCfYNkZnA8fWYGY5nq4Xk9dw/view?usp=sharing) (For Catalina and Older)
 * [Hackintool](https://github.com/headkaze/Hackintool/releases)
 * [MaciASL](https://github.com/acidanthera/MaciASL/releases)
 * [Clover.app](https://github.com/CloverHackyColor/CloverBootloader/releases) (Plist Editor/EFI Mounter)
