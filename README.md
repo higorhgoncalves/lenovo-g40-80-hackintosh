@@ -2,23 +2,26 @@
 ### Lenovo G40-80 Hackintosh with Opencore (0.6.2)
 
 **Working:**
-* Processor - Intel 5200U Broadwell
+* CPU - Intel 5200U Broadwell;
 * Video - Intel HD 5500;
-* Brightness;
+* HDMI Video;
+* Brightness control;
 * Audio - CONEXANT 20751/2;
 * Touchpad and Keyboard;
 * USB Devices;
 * Wifi Dongle - TL WN725N - Download Driver and Install(Catalina and Older);
 * Battery Status;
 
+
 **What doesn't work yet:**
-* Wifi and Bluetooth Card - RTL8723BE - Not Supported, need replacement
-* SD-CardReader - Not Supported
+* Wifi and Bluetooth Card - RTL8723BE - Not Supported, need replacement;
+* SD-CardReader - Not Supported;
+* HDMI Audio;
 
 **Fixes:**
-* To configure shortcut keys for Brightness, first disable SSDT-BATT.aml through Opencore Configurator, or a Plist Editor. After configuration you can enable SSDT-BATT again. Recomended Keys: F1 and F2;
+* To configure shortcut keys for Brightness, first disable SSDT-BATT.aml through Opencore Configurator, or a Plist Editor. After configuration you can enable SSDT-BATT again. Recomended Keys: Ctrl + F11 and Ctrl + F12;
 
-* To configure Trackpad on System Preferences, please download the Trackpad Pane Fix, open Hackintool under Utilities click on the House icon (Disable Gatekeeper), copy Trackpad.prefPane to /System/Library/PreferencePanes/ and Replace the one found in there.
+* To configure Trackpad on System Preferences, please download the Trackpad Pane Fix, open Hackintool, under Utilities, click on the House icon (Disable Gatekeeper), copy Trackpad.prefPane to /System/Library/PreferencePanes/ and Replace the one found in there.
 
 **Downloads:**
 * Opencore Configurator
@@ -29,8 +32,8 @@ https://drive.google.com/file/d/1nqvFKDfDNCfYNkZnA8fWYGY5nq4Xk9dw/view?usp=shari
 https://github.com/headkaze/Hackintool/releases
 * MaciASL
 https://github.com/acidanthera/MaciASL/releases
-* PlistEditor
-https://www.fatcatsoftware.com/plisteditpro/
+* Clover.app (Plist Editor/EFI Mounter)
+https://github.com/CloverHackyColor/CloverBootloader/releases
 * TL WN725N Driver (Wifi Dongle) (Catalina and Older)
 https://www.tp-link.com/br/support/download/tl-wn725n/#Driver
 * TL WN725N Guide (Wifi Dongle) (Big Sur)
