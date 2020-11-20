@@ -2,7 +2,7 @@
 ### Lenovo G40-80 Hackintosh with Opencore (0.6.2) (Outdated)
 
 **Specs**
-* CPU - Intel 5200U Broadwell;
+* CPU - Intel i5 5200U Broadwell;
 * Video Card - Intel HD Graphics 5500;
 * Audio Card - CONEXANT 20751/2;
 * RAM - 8 GB;
