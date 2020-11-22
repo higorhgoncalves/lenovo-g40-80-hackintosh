@@ -1,5 +1,5 @@
 # Lenovo G40-80 Hackintosh
-### Lenovo G40-80 Hackintosh with Opencore (0.6.2) (Outdated)
+### Lenovo G40-80 Hackintosh with Opencore (0.6.3)
 
 **Specs**
 * CPU - Intel i5 5200U Broadwell;
